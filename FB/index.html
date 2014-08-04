@@ -1,0 +1,17 @@
+{% extends 'master.html' %}
+{% block content %}
+
+	{% swf src='swf/VortexWars.swf' width=800 height=600 id='VortexWars' allowscriptaccess='always' %}
+	{% swf src='swf/FBPanel.swf' width=800 height=200 id='FBPanel' allowscriptaccess='always' %}
+	<div id="buttons" style="margin-top:20px; margin-bottom:20px">
+                <a href="http://www.vortexwars.com/forum/" style="float: left;" target="_blank">
+                    <img src="http://vortexwars.com/images/btn_forum2.png" alt="Visit Forum" width="250" height="78" />
+                </a>
+                <a href="http://www.vortexwars.com/forum/viewforum.php?f=3" target="_blank">
+                    <img src="http://vortexwars.com/images/btn_bug2.png" alt="Found bug?" width="250" height="78" />
+                </a>
+                <a href="http://www.vortexwars.com/forum/viewforum.php?f=8" style="float: right;" target="_blank">
+                    <img src="http://vortexwars.com/images/btn_suggestion2.png" alt="Suggestions? Tell us about them" width="250" height="78" />
+                </a>
+            </div>
+{% end %}

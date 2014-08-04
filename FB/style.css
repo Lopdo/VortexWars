@@ -1,0 +1,34 @@
+*{margin:0px;padding:0px;}
+body{font-size:12px;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size: 11px;text-align:center;}
+body{overflow:hidden;} /* required to not show iframe scrollbars  */
+body{background: transparent url(http://vortexwars.com/images/bg2.png) repeat 0 0;}
+a{color:#28abec;}
+
+#logo {
+	display:block;
+	margin:0px auto;
+}
+
+#buttons {
+	width: 838px;
+	height: 82px;
+	display:block;
+	margin:0px auto;
+}
+			
+#fb-bookmark-button,#fb-permission-button,#fb-email-button{width:100px;height:22px;background:url(img/topprogress.gif) -232px -295px;line-height:22px;margin-left:15px;padding-left:16px;cursor:pointer;font-weight:bold;}
+#fb-permission-button{background-position:-116px -295px;}
+#fb-email-button{background-position:-0px -295px;}
+
+/* Tabs */
+#tabs{border-bottom:1px solid #898989;padding-left:20px;height:19px;}
+#tabs a{position:relative;z-index:1;display:block;float:left;height:18px;line-height:18px;padding:0px 10px 0px 10px;margin-right:-1px;text-align:center;background-color:#e8e8e8;border:1px solid #898989;color:#333333;font-weight:bold;text-decoration:none;}
+#tabs a.active{border-color:#37538e;background-color:#687eac;color:white;z-index:2;}
+
+/* Game */
+#game{margin-top:10px;margin: 0px auto;display: block;width: 800px;}
+
+/* Invite Page */
+#waiting{text-align:center;padding:10px;font-size:15px;font-style:italic;}
+#thanks,#nothanks{text-align:center;padding:30px;font-size:20px;color:#6ca813;font-weight:bold;}
+

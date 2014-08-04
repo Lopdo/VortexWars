@@ -1,0 +1,21 @@
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Release\RedMoon.dll
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Release\RedMoon.pdb
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Release\Player.IO GameLibrary.dll
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Release\Player.IO GameLibrary.xml
+d:\dev\flash\RedMoon\Serverside Code\Game Code\obj\Release\ResolveAssemblyReference.cache
+d:\dev\flash\RedMoon\Serverside Code\Game Code\obj\Release\RedMoon.dll
+d:\dev\flash\RedMoon\Serverside Code\Game Code\obj\Release\RedMoon.pdb
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Release\Wargrounds.dll
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Release\Wargrounds.pdb
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Release\Player.IO GameLibrary.dll
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Release\Player.IO GameLibrary.xml
+d:\dev\flash\DiceWars\Serverside Code\Game Code\obj\Release\ResolveAssemblyReference.cache
+d:\dev\flash\DiceWars\Serverside Code\Game Code\obj\Release\Wargrounds.dll
+d:\dev\flash\DiceWars\Serverside Code\Game Code\obj\Release\Wargrounds.pdb
+D:\dev\flash\VortexWars\Serverside Code\Game Code\bin\Release\Wargrounds.dll
+D:\dev\flash\VortexWars\Serverside Code\Game Code\bin\Release\Wargrounds.pdb
+D:\dev\flash\VortexWars\Serverside Code\Game Code\bin\Release\Player.IO GameLibrary.dll
+D:\dev\flash\VortexWars\Serverside Code\Game Code\bin\Release\Player.IO GameLibrary.xml
+D:\dev\flash\VortexWars\Serverside Code\Game Code\obj\Release\Game Code.VS2008.csprojResolveAssemblyReference.cache
+D:\dev\flash\VortexWars\Serverside Code\Game Code\obj\Release\Wargrounds.dll
+D:\dev\flash\VortexWars\Serverside Code\Game Code\obj\Release\Wargrounds.pdb

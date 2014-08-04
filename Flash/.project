@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Flash</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.adobe.flexbuilder.project.flexbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[source path] com</name>
+			<type>2</type>
+			<location>D:/dev/flash/shared/as3corelib/com</location>
+		</link>
+		<link>
+			<name>[source path] de</name>
+			<type>2</type>
+			<location>D:/dev/flash/shared/de</location>
+		</link>
+		<link>
+			<name>[source path] facebook</name>
+			<type>2</type>
+			<location>D:/dev/flash/shared/facebook</location>
+		</link>
+		<link>
+			<name>[source path] flash</name>
+			<type>2</type>
+			<location>D:/dev/flash/Player.IO/flash</location>
+		</link>
+		<link>
+			<name>[source path] src</name>
+			<type>2</type>
+			<location>D:/dev/flash/shared/IreUtils/src</location>
+		</link>
+		<link>
+			<name>bin-debug</name>
+			<type>2</type>
+			<location>D:/dev/flash/VortexWars/Output</location>
+		</link>
+	</linkedResources>
+</projectDescription>

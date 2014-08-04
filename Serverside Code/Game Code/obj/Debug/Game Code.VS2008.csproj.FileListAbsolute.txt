@@ -1,0 +1,14 @@
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.dll
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.xml
+d:\dev\flash\RedMoon\Serverside Code\Game Code\obj\Debug\ResolveAssemblyReference.cache
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Debug\RedMoon.dll
+d:\dev\flash\RedMoon\Serverside Code\Game Code\bin\Debug\RedMoon.pdb
+d:\dev\flash\RedMoon\Serverside Code\Game Code\obj\Debug\RedMoon.dll
+d:\dev\flash\RedMoon\Serverside Code\Game Code\obj\Debug\RedMoon.pdb
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Debug\Wargrounds.dll
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Debug\Wargrounds.pdb
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.dll
+d:\dev\flash\DiceWars\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.xml
+d:\dev\flash\DiceWars\Serverside Code\Game Code\obj\Debug\ResolveAssemblyReference.cache
+d:\dev\flash\DiceWars\Serverside Code\Game Code\obj\Debug\Wargrounds.dll
+d:\dev\flash\DiceWars\Serverside Code\Game Code\obj\Debug\Wargrounds.pdb

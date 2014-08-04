@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		{% require_session %}
+		<link rel="stylesheet" href="{% url 'style.css' %}" />
+		<script type="text/javascript" language="javascript"> 
+			// this array will contain a list of functions that will be
+			// called when facebook is fully loaded and user is logged in.
+			var onFacebookAvailable = []
+
+			// will execute all queued up methods.
+			function runOnFacebookAvailable() {
+				for (var i = 0; i != onFacebookAvailable.length; i++) {
+					var cb = onFacebookAvailable[i];
+					cb();
+				}
+			}
+		</script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	</head>
+	<body>
+
+		<img id="logo" src="http://vortexwars.com/images/logo_new.png" alt="VortexWars" width="358" height="92"/>
+
+		<div id="content">
+			{% block content %}{% end %}
+		</div>
+
+		<div id="fb-root"></div>
+		<script type="text/javascript" language="javascript">
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId: '{{fb_application_id}}',
+					status: true, // check login status
+					cookie: true, // enable cookies to allow the server to access the session
+					xfbml: true  // parse XFBML
+				});
+
+				FB.getLoginStatus(function(response) {
+					if (response.session) {
+						runOnFacebookAvailable()
+					} else {
+						FB.Event.subscribe('auth.login', runOnFacebookAvailable);
+					}
+				});
+
+				FB.Canvas.setAutoResize();
+			};
+			(function() {
+				var e = document.createElement('script');
+				e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+				e.async = true;
+				document.getElementById('fb-root').appendChild(e);
+			} ());
+		</script>
+	</body>
+</html>
